@@ -5,7 +5,8 @@ layout: page
 {{ content }}
 
 <ul id="archive">
-{% for lecture in site.lectures %}
+{%assign lectures = site.lectures | where_exp: "lec", "lec.publish" %}
+{% for lecture in lectures %}
 <li class="archiveposturl" style="background: transparent">
 <div class="lecture-container">
     {% if lecture.thumbnail %}
@@ -16,10 +17,12 @@ layout: page
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ lecture.title }}</span><br>
-
-        <strong>tl;dr:</strong> {{ lecture.tldr }}
-        <br/>
+        <span style="font-weight: bold;">{{ lecture.title }}</span>
+        <br>
+        {% if lecture.tldr %}
+          <strong>tl;dr:</strong> {{ lecture.tldr }}
+          <br/>
+        {% endif %}
         <strong>
         {% include lecture_links.html lecture=lecture %}
         </strong>

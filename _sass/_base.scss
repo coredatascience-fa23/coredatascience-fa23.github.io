@@ -293,19 +293,28 @@ a.tosu {
     }
 
     .table-row-lecture {
-        background-color: #a7c0a18c;
+        // background color for lecture, light blue
+        background-color: #d6eaf8;
     }
 
     .table-row-lab {
-        background-color: #a398ec8c;
+        // background color for lab, light green
+        background-color: #d5f5e3;
+    }
+
+    .table-row-holiday {
+        // background gradient for holiday, christmasy
+        background-image: linear-gradient(to right, #e74c3c, #e67e22, #f1c40f, #2ecc71, #1abc9c, #3498db, #9b59b6);
     }
 
     .table-row-homework {
-        background-color: #b6f7fa;
+        // background color for homework, light yellow
+        background-color: #fcf3cf;
     }
 
     .table-row-due {
-        background-color: #ddbca9df;
+        // background color for due, light red
+        background-color: #f5b7b1;
     }
 
     .table-row-exam {

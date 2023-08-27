@@ -1,13 +1,14 @@
 ---
 type: lecture
-date: 2023-08-28 11:00:00
+date: 2023-08-28 11:30:00
 title: Introduction to Course, R and RMarkdown
-tldr: "Lecture 1"
+# tldr: "Lecture 1"
 thumbnail: /static_files/lectures/lec1/lec1.png
 links: 
     - url: https://github.com/coredatascience-fa23/BST219/blob/main/00_course_introduction/Lecture_01.pdf
       name: lecture slides
 hide_from_announcments: false
+publish: true
 ---
 **Lecture Materials:**
 - [Syllabus](https://github.com/coredatascience-fa23/BST219/blob/main/00_course_introduction/BST219_syllabus.pdf)
