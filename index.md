@@ -7,7 +7,7 @@ title: "Core Principles of Data Science"
 
 - **Time**: 11:30 am - 1:00 pm EST on Mondays & Wednesdays
 - **Location**: Kresge 502
-- We will be using R for all programming homework and projects.
+- We will be using [R](https://www.r-project.org/about.html) for all programming homework and projects.
 
 ## Office Hours
 
