@@ -1,0 +1,57 @@
+# Site settings"
+course_name: Core Principles of Data Science
+course_description: "Modern technology has led to the generation of unprecedented amounts of data, prompting the need to train researchers to leverage data for decision-making in public health and medicine. This course assumes no prior R or programming knowledge and serves as a gentle, practical introduction to wrangling, visualizing, and modeling data using the R statistical programming language. We also emphasize the importance of reproducible research and effective data science communication."
+course_semester: "Fall 2023"
+
+# baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://coredatascience-fa23.github.io" # the base hostname & protocol for your site
+
+schoolname: Harvard T.H. Chan School of Public Health
+schoolurl: "http://www.hsph.harvard.edu"
+# twitter_username: 
+
+# address: |
+#     School of Witchcraft and Wizardry
+#     Hogwarts
+#     Scotland
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+
+exclude:
+  - develop
+
+dateformat: "%m/%d/%Y"
+
+timezone: "America/New_York"
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    homeworks:
+        output: true
+    announcements:
+        output: false
+    labs:
+        output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "homeworks"
+    values:
+      layout: "homework"
