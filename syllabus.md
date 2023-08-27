@@ -25,9 +25,9 @@ Grades will be based on:
 * 1 take-home midterm (25%)
 * 1 final project (35%)
 
-## [Homeworks](/homework/)
+## [Homeworks](/homeworks/)
 
-All [homeworks](/homework/) will involve writing code and communicating results. **Students must submit both the RMarkdown file <ins>AND</ins> the knitted HTML file associated with each assignment in their individual repository.** A private repository for each assignment will be created for each student and will only be visible to the student and course teaching staff.
+All [homeworks](/homeworks/) will involve writing code and communicating results. **Students must submit both the RMarkdown file <ins>AND</ins> the knitted HTML file associated with each assignment in their individual repository.** A private repository for each assignment will be created for each student and will only be visible to the student and course teaching staff.
 
 Each student is given two late days per homework assignment. A late day extends the individual homework deadline by 24 hours without penalty. No more than two late days may be used on any one assignment. Late days are intended to provide flexibility; they can be used for any reason, no questions asked. Students don't get any bonus points for not using late days. Late days can only be used for individual homework deadlines; all other deadlines (e.g., project milestones, midterm exam) are firm.
 
