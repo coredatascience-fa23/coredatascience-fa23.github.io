@@ -9,7 +9,11 @@ layout: default
 {{ content }}
 
 <div class="home" style="font-size: 0.8em;">
-    <ul class="responsive-table" style="margin-left: 0;">
+    <p class="search_container">
+        <input type="search" class="search_field" id="schedule_search_input" onkeyup="scheduleSearch()" placeholder="Search by events/date/title...">
+    </p>
+    <br style="clear:both" />
+    <ul id="schedule_table" class="responsive-table" style="margin-left: 0;">
         <li class="table-header">
             <div class="col col-1">Event</div>
             <div class="col col-1-2">Date</div>
@@ -32,3 +36,30 @@ layout: default
 
     </ul>
 </div>
+
+<script>
+function scheduleSearch() {
+  // Declare variables
+  let input = document.getElementById('schedule_search_input');
+  let search_filter = input.value.toLowerCase();
+  let table = document.getElementById("schedule_table");
+  let rows = table.querySelectorAll(":scope > .table-row")
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < rows.length; i++) { // Ignore header
+    let event = rows[i].querySelector('[data-label="Event"]').innerText.toLowerCase();
+    let date = rows[i].querySelector('[data-label="Date"]').innerText.toLowerCase();
+    let description = rows[i].querySelector('[data-label="Description"]').innerText.toLowerCase();
+    let course_material = rows[i].querySelector('[data-label="Course Material"]').innerText.toLowerCase();
+
+     if (event.includes(search_filter) || date.includes(search_filter) ||
+        description.includes(search_filter) ||
+        course_material.includes(search_filter)) {
+        rows[i].style.display = ""; // show row
+    } else {
+        rows[i].style.display = "none"; // hide row
+    }
+  }
+}
+</script>
+
