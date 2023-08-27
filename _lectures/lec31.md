@@ -10,3 +10,4 @@ thumbnail: /static_files/lectures/placeholder.png
 hide_from_announcments: true
 ---
 
+Final project due
