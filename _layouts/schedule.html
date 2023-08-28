@@ -9,18 +9,19 @@ layout: default
 {{ content }}
 
 <div class="home" style="font-size: 0.8em;">
-    <p class="search_container">
-        <input type="search" class="search_field" id="schedule_search_input" onkeyup="scheduleSearch()" placeholder="Search by events/date/title...">
-    </p>
-    <br style="clear:both" />
-    <ul id="schedule_table" class="responsive-table" style="margin-left: 0;">
-        <li class="table-header">
-            <div class="col col-1">Event</div>
-            <div class="col col-1-2">Date</div>
-            <div class="col col-2">Description</div>
-            <div class="col col-4">Course Material</div>
-        </li>
-        
+    <div id="schedule_table" class="container-fluid">
+        <div class="row table-header week">
+            <div class="col col-1 align-self-center">Week</div>
+            <div class="col-11">
+                <div class="row event-row">
+                    <div class="col col-1">Event</div>
+                    <div class="col col-2">Date</div>
+                    <div class="col col-4">Description</div>
+                    <div class="col col-4">Course Material</div>
+                </div>
+            </div>
+        </div>
+        <hr class="row"/>
         {% assign all_assignment_dues = site.homeworks | where_exp: "hw", "hw.due_event" | map: "due_event" %}
         {% assign all_events = site.events | concat: site.lectures %}
         {% assign all_events = all_events | concat: site.homeworks %}
@@ -28,38 +29,24 @@ layout: default
         {% assign all_events = all_events | concat: all_assignment_dues %}
         {% assign all_events_sorted = all_events | sort: 'date' %}
 
+        {% assign week_idx = 0 %}
+        {% assign current_week = -1 %}
         {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
-            {% include schedule_row_{{ event.type }}.html event=event %}
-        </li>
+            {% assign week = event.date | date: "%W" %}
+            {% if week != current_week %}
+                {% unless forloop.first == true %}
+                    </div></div>
+                    <hr class="row"/>
+                {% endunless %}
+                {% assign current_week = week %}
+                {% assign week_idx = week_idx | plus: 1 %}
+                <div class="row week">
+                    <div class="col col-1 align-self-center"> {{ week_idx | prepend: '0' | slice: -2, 2 }}</div>
+                    <div class="col-11">
+            {% endif %}
+            <div class="row event-row table-row-{{ event.type}}">
+                {% include schedule_row_{{ event.type }}.html event=event %}
+            </div>
         {% endfor %}
-
-    </ul>
-</div>
-
-<script>
-function scheduleSearch() {
-  // Declare variables
-  let input = document.getElementById('schedule_search_input');
-  let search_filter = input.value.toLowerCase();
-  let table = document.getElementById("schedule_table");
-  let rows = table.querySelectorAll(":scope > .table-row")
-
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < rows.length; i++) { // Ignore header
-    let event = rows[i].querySelector('[data-label="Event"]').innerText.toLowerCase();
-    let date = rows[i].querySelector('[data-label="Date"]').innerText.toLowerCase();
-    let description = rows[i].querySelector('[data-label="Description"]').innerText.toLowerCase();
-    let course_material = rows[i].querySelector('[data-label="Course Material"]').innerText.toLowerCase();
-
-     if (event.includes(search_filter) || date.includes(search_filter) ||
-        description.includes(search_filter) ||
-        course_material.includes(search_filter)) {
-        rows[i].style.display = ""; // show row
-    } else {
-        rows[i].style.display = "none"; // hide row
-    }
-  }
-}
-</script>
-
+        </div></div>
+    </div>
