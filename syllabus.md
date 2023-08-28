@@ -25,7 +25,7 @@ Grades will be based on:
 * 1 take-home midterm (25%)
 * 1 final project (35%)
 
-## [Homeworks](/homeworks/)
+## Homeworks [🔗](/homeworks/)
 
 All [homeworks](/homeworks/) will involve writing code and communicating results. **Students must submit both the RMarkdown file <ins>AND</ins> the knitted HTML file associated with each assignment in their individual repository.** A private repository for each assignment will be created for each student and will only be visible to the student and course teaching staff.
 
@@ -44,13 +44,13 @@ The teaching fellows (TFs) must be able to knit submitted RMarkdown files. The p
 
 **Students may ask questions about the assignments during lecture, but questions about grading should be directed to the TFs or Dr. Li via email, outside of lecture and lab sessions.**
 
-## [Take-home Midterm](/midterm)
+## Take-home Midterm [🔗](/midterm)
 
 A take-home [midterm](/midterm) will be distributed in the form of an RMarkdown file in October (date TBD) to test comprehension of course material. The exam will consist of multiple-choice questions, coding questions, and short-answer questions. All code used and text answers must be submitted using the RMarkdown file. Students will have one week to work on the exam and must submit it via Canvas by 11:59 pm on the deadline (TBD). **Students are encouraged to use lecture slides, lab material, homework assignments, and the Internet, but may not collaborate with other students.**
 
 **Due to the unpredictable nature of COVID-19, students in need of extra time to complete assignments should reach out to Student Affairs at StudentAffairs[at]hsph.harvard.edu. A staff member will work with you and Dr. Li to accommodate you. You can also contact Student Affairs if you have a learning disability that requires accommodations. We will ensure you are accommodated as needed.**
 
-## [Final Project](/project)
+## Final Project [🔗](/project)
 
 Students will work in small groups on a month-long data science [project](/project). The goal of the project is to go through the complete data science process to answer a series of questions using an assigned dataset. You will design visualizations, run statistical analyses, and communicate results. A full description is available on the course website.
 
