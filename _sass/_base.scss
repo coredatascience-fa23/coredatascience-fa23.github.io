@@ -264,7 +264,7 @@ a.tosu {
 
     .row.event-row {
         // border-radius: 3px;
-        padding: 14px 15px;
+        padding: 12px 13px;
         justify-content: space-between;
         // margin-bottom: 15px;
     }
@@ -432,35 +432,4 @@ a.tosu {
         display: list-item !important;
         border-bottom: 0 !important;
     }
-}
-
-.search_container {
-    float: right;
-}
-
-/* Search input styling */
-.search_field {
-    width: 400px;
-    padding: 10px 15px 10px 40px;
-    /* Padding on the left to leave space for a search icon */
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    outline: none;
-    /* Removes the blue outline that appears on focus in some browsers */
-    font-size: 14px;
-    transition: border 0.2s;
-    /* Smooth transition for hover effect */
-    height: 100%;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
-}
-
-.search_field:focus {
-    border-color: #007BFF;
-    /* Changes the border color when the input is focused */
-}
-
-/* Hover effect */
-.search_field:hover {
-    border-color: #ccc;
-    /* Slightly changes the border color on hover for a subtle effect */
 }
