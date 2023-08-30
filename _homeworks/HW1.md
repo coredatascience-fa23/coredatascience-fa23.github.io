@@ -11,4 +11,4 @@ due_event:
     date: 2023-09-28 23:59:00
     description: 'Homework #1 due'
 ---
-**Please [Email](mailto:dongdongli@hsph.harvard.edu?cc=lukebenz@g.harvard.edu) your GitHub Username to me if you haven't done so.**
+**Please [Email](mailto:dongdongli@hsph.harvard.edu?cc=lukebenz@g.harvard.edu) your GitHub Username to me if you haven't submitted the [survey](https://docs.google.com/forms/d/1Tzx_oT1iMaT7kycALmm9tvs5S7BiAHkMyszwhWI76qw/edit?usp=forms_home&ths=true)**
