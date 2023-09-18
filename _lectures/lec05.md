@@ -11,7 +11,12 @@ hide_from_announcments: true
 publish: true
 ---
 **R files:**
-If you have the course repository set up, they should already have them on your laptop. Click on your **.Rproj** file to open the directory. 
+If you have the course repository set up, they should already have them on your laptop. 
+Go to the directory of our course repository on your local folder and click on the  **.Rproj** file to open the directory. 
+
+- [instructor_lecture-recap-notes-for-lec5](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec5.R)
+
+
 - [04-sorting-rmarkdown](https://github.com/coredatascience-fa23/BST219/blob/main/01_R-basics/04-sorting.Rmd)
 - [05-vector-arithmetics-rmarkdown](https://github.com/coredatascience-fa23/BST219/blob/main/01_R-basics/05-vector-arithmetics.Rmd)
 - [06-indexing-rmarkdown](https://github.com/coredatascience-fa23/BST219/blob/main/01_R-basics/06-indexing.Rmd)

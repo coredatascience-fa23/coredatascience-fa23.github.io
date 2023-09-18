@@ -9,4 +9,4 @@ thumbnail: /static_files/lectures/placeholder.png
 #       name: lecture slides
 hide_from_announcments: true
 ---
-
+HW2 Assigned
