@@ -9,8 +9,6 @@ thumbnail: /static_files/lectures/mod1/mod1_lec_thumnail.png
 #       name: lecture slides
 hide_from_announcments: true
 ---
-HW2 Assigned
-
 **R files:**
 If you have the course repository set up, they should already have them on your laptop. 
 Go to the directory of our course repository on your local folder and click on the  **.Rproj** file to open the directory. 
