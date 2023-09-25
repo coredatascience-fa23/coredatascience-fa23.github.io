@@ -2,7 +2,8 @@
 type: lab
 date: 2023-09-15 09:45:00
 title: 'Lab #2 - part 2'
-hide_from_announcments: false
+hide_from_announcments: true
+publish: true
 ---
 Location: Kresge LL6
 
