@@ -5,7 +5,7 @@ title: 'Homework #1'
 # pdf: /static_files/homeworks/01/asg.pdf
 # github: https://github.com/coredatascience-fa23/HW1
 # solutions: /static_files/homeworks/01/asg_solutions.pdf
-hide_from_announcments: false
+hide_from_announcments: true
 due_event: 
     type: due
     date: 2023-09-28 23:59:00
