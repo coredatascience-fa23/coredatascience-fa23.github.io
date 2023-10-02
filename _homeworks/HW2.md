@@ -8,6 +8,6 @@ title: 'Homework #2'
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2023-10-15 23:59:00
+    date: 2023-10-22 23:59:00
     description: 'Homework #2 due'
 ---
