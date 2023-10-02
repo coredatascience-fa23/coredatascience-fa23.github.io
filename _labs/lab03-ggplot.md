@@ -1,6 +1,6 @@
 ---
 type: lab
-date: 2023-09-29 09:45:00
+date: 2023-10-06 09:45:00
 title: 'Lab #3'
 hide_from_announcments: false
 publish: true
