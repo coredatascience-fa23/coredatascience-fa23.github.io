@@ -12,6 +12,6 @@ publish: true
 ---
 **R files:**
 - [instructor-recap-notes-lec14](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec14.R)
-- [03-dataviz-principles](hhttps://github.com/coredatascience-fa23/BST219/blob/main/03_data_visualization/03-dataviz-principles.Rmd)
+- [03-dataviz-principles](https://github.com/coredatascience-fa23/BST219/blob/main/03_data_visualization/03-dataviz-principles.Rmd)
 - [04-maps](https://github.com/coredatascience-fa23/BST219/blob/main/03_data_visualization/04-maps.Rmd)
 
