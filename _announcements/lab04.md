@@ -1,4 +1,4 @@
 ---
-date: 2023-10-06 9:45
+date: 2023-10-13 9:45
 ---
-There will be a lab session this Friday, Oct 6 at **FXB G03**.
+No Lab this Friday, Oct 13.
