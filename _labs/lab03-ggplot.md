@@ -2,7 +2,7 @@
 type: lab
 date: 2023-10-06 09:45:00
 title: 'Lab #3'
-hide_from_announcments: false
+hide_from_announcments: true
 publish: true
 ---
 Location: **FXB G03**

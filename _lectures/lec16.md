@@ -10,6 +10,8 @@ thumbnail: /static_files/lectures/mod3/mod3_lec_thumbnail.png
 hide_from_announcments: false
 publish: true
 ---
+HW3 to be released on Thursday
+
 **R files:**
 - [instructor-recap-notes-lec16](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec16.R)
 - [03-reshaping-data](https://github.com/coredatascience-fa23/BST219/blob/main/04_advanced-wrangling/03-reshaping-data.Rmd)
