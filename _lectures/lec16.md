@@ -7,8 +7,8 @@ thumbnail: /static_files/lectures/mod3/mod3_lec_thumbnail.png
 # links:
 #     - url: https://github.com/coredatascience-fa23/BST219/blob/main/00_course_introduction/Lecture_01.pdf
 #       name: lecture slides
-hide_from_announcments: true
-publish: false
+hide_from_announcments: false
+publish: true
 ---
 **R files:**
 - [instructor-recap-notes-lec16](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec16.R)
