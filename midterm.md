@@ -4,4 +4,4 @@ title: Midterm
 permalink: /midterm/
 ---
 
-To be released in October (date TBD).
+To be released around November 8th.
