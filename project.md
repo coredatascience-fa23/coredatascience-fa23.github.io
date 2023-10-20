@@ -4,7 +4,7 @@ title: Project
 permalink: /project/
 ---
 
-<!-- 
+
 Students will work in small groups of 4-5 students on a month-long data science project. The goal of the project is to go through the complete data science process to answer questions you have about an assigned dataset and prompt. Canvas or Slack can be used to find prospective team members. In general, we do not anticipate that the grades for each group member will be different. However, we reserve the right to assign different grades to each group member based on peer assessments (see below).
 
 Each group must complete and submit [this project preference form](https://docs.google.com/forms/d/e/1FAIpQLSfvhegiqPG-jQtQvqaIz6jnyLrSv-sOpiF4V3qvQdSTMHK3zQ/viewform?usp=sf_link) **by 11:59 pm EST on November 6, 2023**. We will take preferences into account when assigning each group a project.
@@ -74,7 +74,7 @@ Each group must complete and submit [this project preference form](https://docs.
 
 
 ### RMarkdown and HTML Files
-An important part of the project is the RMarkdown and associated HTML file. These will detail the steps taken in answering each of the project prompt questions. Equally important to the final results is how the team got there! The RMarkdown and HTML files are the place you describe and document the space of possibilities explored at each step of the project. The RMarkdown and HTML files are due Monday, December 12 by 11:59pm EST. Your assigned TF will create a repository for you to submit your project files.
+An important part of the project is the RMarkdown and associated HTML file. These will detail the steps taken in answering each of the project prompt questions. Equally important to the final results is how the team got there! The RMarkdown and HTML files are the place you describe and document the space of possibilities explored at each step of the project. The RMarkdown and HTML files are due Monday, December 11 by 11:59pm EST. Your assigned TF will create a repository for you to submit your project files.
 
 
 ### Code
@@ -91,10 +91,12 @@ It is important to provide positive feedback to people who truly worked hard for
 
 * **Flexibility**: were they flexible when disagreements occurred?
 
-Your teammates' assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall project score. The peer assessment is due Monday, December 11 by 11:59pm EST. For instructions on how to submit, please see **Submission Instructions** below. 
+Your teammates' assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall project score. The peer assessment is due Monday, December 11 by 11:59pm EST. For instructions on how to submit, please see _**Submission Instructions**_ below. 
 
 
-#### How to submit the Peer Assessment (due Monday, December 11 by 11:59pm EST)
+
+_**Submission Instructions**_ **(due Monday, December 11 by 11:59pm EST)**
+
 Each individual team member needs to fill out this [google form for the peer evaluation](https://docs.google.com/forms/d/e/1FAIpQLSfEdEkbi66Ua7ESmo0akM0nL1x27KNwMY3KG7xDz1EMgeEF-w/viewform?usp=sf_link). Your individual project score will take into account your self and peer assessment.  
--->
+
 
