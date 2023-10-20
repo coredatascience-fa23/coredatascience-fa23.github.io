@@ -1,4 +1,4 @@
 ---
-date: 2023-10-20 9:45
+date: 2023-10-27 9:45
 ---
-No Lab this Friday, Oct 20.
+Lab this Friday, Oct 27.
