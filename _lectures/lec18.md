@@ -11,7 +11,7 @@ hide_from_announcments: false
 publish: true
 ---
 **R files:**
-- [instructor-recap-notes-lec18](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec18.R)
+- [instructor-recap-notes-lec18](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec18.Rmd)
 - [01-regression-motivation](https://github.com/coredatascience-fa23/BST219/blob/main/05_probability-and-regression/01_regression-motivation.Rmd)
 - [02-intro-to-regression](https://github.com/coredatascience-fa23/BST219/blob/main/05_probability-and-regression/02_intro-to-regression.Rmd)
 - [03-linear-models](https://github.com/coredatascience-fa23/BST219/blob/main/05_probability-and-regression/03_linear-models.Rmd)
