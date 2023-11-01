@@ -13,6 +13,7 @@ publish: true
 **R files:**
 - [instructor-recap-notes-lec20](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec20.Rmd)
 - [04-confounding](https://github.com/coredatascience-fa23/BST219/blob/main/05_probability-and-regression/04_confounding.Rmd)
+
 _maching learning module_
 - [01-intro_to_ml](https://github.com/coredatascience-fa23/BST219/blob/main/06_machine-learning/01_intro-ml.Rmd)
 
