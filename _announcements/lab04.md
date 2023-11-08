@@ -1,4 +1,4 @@
 ---
-date: 2023-11-03 9:45
+date: 2023-11-10 9:45
 ---
-No Lab this Friday, Nov 3.
+No Lab this Friday, Nov 10.
