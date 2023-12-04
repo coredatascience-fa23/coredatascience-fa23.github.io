@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-11-08 11:30:00
-title: Introduction to machine learning
+title: Introduction to machine learning 
 # tldr: ...
 thumbnail: /static_files/lectures/mod5/mod5_lec_thumbnail.png
 # links:

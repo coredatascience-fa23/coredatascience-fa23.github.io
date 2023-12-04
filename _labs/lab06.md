@@ -2,7 +2,7 @@
 type: lab
 date: 2023-12-01 09:45:00
 title: 'Lab #6'
-hide_from_announcments: false
+hide_from_announcments: true
 publish: true
 ---
 Location: **Kresge LL6**

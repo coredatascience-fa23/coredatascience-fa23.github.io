@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-11-15 11:30:00
-title: Machine learning - continued
+title: Machine learning - continued (lda, qda)
 # tldr: ...
 thumbnail: /static_files/lectures/mod5/mod5_lec_thumbnail.png
 # links:
