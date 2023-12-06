@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-12-11 11:30:00
-title: Shiny - continued
+title: Machine learning - continued (cross validation)
 # tldr: ...
 thumbnail: /static_files/lectures/placeholder.png
 # links:

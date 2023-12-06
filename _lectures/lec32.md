@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-12-13 11:30:00
-title: Shiny - continued Next steps in data science
+title: Machine learning - continued and Next steps
 # tldr: ...
 thumbnail: /static_files/lectures/placeholder.png
 # links:
