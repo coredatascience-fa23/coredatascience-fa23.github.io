@@ -14,5 +14,8 @@ Final Project Due
 **R files:**
 - [instructor-recap-notes-lec32](https://github.com/coredatascience-fa23/BST219/blob/main/instructor_lecture-recap-notes/instructor_notes_lec32.Rmd)
 
-- [05-cross-validation](hhttps://github.com/coredatascience-fa23/BST219/blob/main/06_machine-learning/05_cross-validation.Rmd)
+- [05-cross-validation](https://github.com/coredatascience-fa23/BST219/blob/main/06_machine-learning/05_cross-validation.Rmd)
+
+Next steps:
+-[07-next-steps](https://github.com/coredatascience-fa23/BST219/blob/main/07_next-steps/ds-next-steps.Rmd)
 
